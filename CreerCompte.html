@@ -1,0 +1,82 @@
+<html>
+	<head>
+	    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<style>
+		body{
+			background-size:1400px 850px;
+			background-repeat:no-repeat;
+		}
+		
+		SELECT{
+			padding:5px 10px;
+		}		
+		
+	</style>
+    <title>Magasin de peinture</title>
+	</head>
+	
+	<?php
+		
+	?>
+	<H1 align="CENTER">Entrer votre informations svp:</H1>
+	<body>
+		<form action="form_action.asp" method="get">
+			<br>
+			Nom: <input type="text" name="nom" />
+			<br>
+			<br>
+			Prénom: <input type="text" name="prenom" />
+			<br>
+			<br>
+			Votre adresse postale: <input type="text" name="postale" />
+			<br>
+			<br>
+			Votre adresse mail: <input type="text" name="mail" />
+			<br>
+			<br>
+			Tel: <input type="text" name="tel" />
+			<br>
+			<br>
+			Date de naissance: <input type="text" name="birthday" />
+			<br>
+			<br>
+			Pseudo: <input type="text" name="pseudo" />
+			<br>
+			<br>
+			Mot de passe: <input type="password" name="password" />
+			<br>
+			<br>
+			Vérifier votre mot de passe: <input type="password" name="repassword" />
+			<br>
+			<br>
+			Sexe: <select name="sexe" size="1">
+			<option value="下拉1">Monsieur</option>
+			<option value="下拉2">Madame</option>
+			</select>
+			<style>
+				input{
+					outline-style: none ;
+					border: 1px solid #ccc; 
+					border-radius: 3px;
+					padding: 13px 14px;
+					width: 620px;
+					font-size: 14px;
+					font-weight: 700;
+					font-family: "Microsoft soft";
+				}
+			
+				input:focus{
+					border-color: #66afe9;
+					outline: 0;
+					-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+					box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+				}
+			</style>
+			<br>
+			<br>
+			<input type="submit" value="Créer compte" />
+		</form>
+	</body>
+	
+</html>
