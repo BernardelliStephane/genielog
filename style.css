@@ -1,0 +1,38 @@
+body{
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+    border: 2px solid red;
+}
+
+.filtres{
+    border: 2px solid greenyellow;
+    width: 150px;
+    position: absolute;
+}
+
+.filtres li{
+    list-style-type: none;
+}
+
+.filtres li:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.peintures{
+    position: absolute;
+    margin-left: 170px;
+}
+
+.peintures li {
+    list-style-type: none;
+}
+
+div{
+    float:left;
+}
