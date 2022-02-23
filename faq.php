@@ -7,6 +7,7 @@
 
 
     <body>
+        <a id='accueil' href='accueil.html'>Accueil</a>
         <h1 style="text-align:center">FAQ</h1>
         <h2 style="text-align:center">Vous pouvez retrouver ici les différentes questions posées par les utilisateurs et les réponses de l'équipe !</h2><br><br>
         <div>
